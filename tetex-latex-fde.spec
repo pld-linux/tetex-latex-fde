@@ -13,6 +13,7 @@ Source0:	http://www.hait.ac.il/staff/benzionS/FDE/Makros.zip
 # Source0-md5:	e908f231f37895bf8961a453e8bff837
 Source1:	http://www.hait.ac.il/staff/benzionS/FDE/Example.zip
 # Source1-md5:	0b1c2c25b9703830f3fed798d9bf9a39
+BuildRequires:	unzip
 Requires:	tetex-latex
 Requires(post,postun):	/usr/bin/texhash
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)

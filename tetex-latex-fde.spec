@@ -1,6 +1,5 @@
 # TODO:
 # - check proper version
-# - polish translation
 %define short_name fde
 %define	texhash	[ ! -x %{_bindir}/texhash ] || %{_bindir}/texhash 1>&2 ;
 Summary:	Formats for International Journal Functional Differential Equations
@@ -35,8 +34,26 @@ relevant subjects.
 
 To publish in that journal you need these styles.
 
+%description -l pl
+Functional Differential Equations (FDE) to pismo przeznaczone do
+publikowania wysokiej jako¶ci artyku³ów matematycznych z zakresu
+funkcyjnych równañ ró¿niczkowych. Nacisk jest po³o¿ony na wa¿ne
+postêpy w abstrakcyjnych i stosowanych funkcyjnych równaniach
+ró¿niczkowych zwi±zanych z problemami warto¶ci granicznych, teori±
+stabilno¶ci, teori± oscylacji, problemami wariacyjnymi, teori±
+optymalizacji i teori± sterowania. Artyku³y dotycz±ce funkcyjnych
+równañ ró¿niczkowych z impulsami, równaniami ca³kowymi i niektórymi
+zwi±zanymi problemami. Cz±stkowe równania ró¿niczkowe, zwyk³e
+równania ró¿niczkowe i równania ró¿nicowe s± równie¿ mile widziane w
+tym pi¶mie. FDE wspiera tak¿e publikowanie powa¿nych, obszernych i
+autorytatywnych artyku³ów przegl±dowych, których celem jest
+informowanie czytelników o ostatnich postêpach, a tak¿e tle
+historycznym zwi±zanym z tymi tematami.
+
+Style z tego pakietu s± potrzebne do publikowania w tym pi¶mie.
+
 %prep
-%setup -q -c -T -a0
+%setup -q -c
 unzip -n %{SOURCE1} -d examples
 
 %install

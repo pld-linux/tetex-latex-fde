@@ -3,7 +3,7 @@
 %define short_name fde
 %define	texhash	[ ! -x %{_bindir}/texhash ] || %{_bindir}/texhash 1>&2 ;
 Summary:	Formats for International Journal Functional Differential Equations
-Summary(pl.UTF-8):   Formaty dla publikujących w Functional Differential Equations
+Summary(pl.UTF-8):	Formaty dla publikujących w Functional Differential Equations
 Name:		tetex-latex-%{short_name}
 Version:	1.0
 Release:	1

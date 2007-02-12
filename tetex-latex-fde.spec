@@ -3,7 +3,7 @@
 %define short_name fde
 %define	texhash	[ ! -x %{_bindir}/texhash ] || %{_bindir}/texhash 1>&2 ;
 Summary:	Formats for International Journal Functional Differential Equations
-Summary(pl):	Formaty dla publikuj±cych w Functional Differential Equations
+Summary(pl.UTF-8):   Formaty dla publikujÄ…cych w Functional Differential Equations
 Name:		tetex-latex-%{short_name}
 Version:	1.0
 Release:	1
@@ -35,23 +35,23 @@ relevant subjects.
 
 To publish in that journal you need these styles.
 
-%description -l pl
+%description -l pl.UTF-8
 Functional Differential Equations (FDE) to pismo przeznaczone do
-publikowania wysokiej jako¶ci artyku³ów matematycznych z zakresu
-funkcyjnych równañ ró¿niczkowych. Nacisk jest po³o¿ony na wa¿ne
-postêpy w abstrakcyjnych i stosowanych funkcyjnych równaniach
-ró¿niczkowych zwi±zanych z problemami warto¶ci granicznych, teori±
-stabilno¶ci, teori± oscylacji, problemami wariacyjnymi, teori±
-optymalizacji i teori± sterowania. Artyku³y dotycz±ce funkcyjnych
-równañ ró¿niczkowych z impulsami, równaniami ca³kowymi i niektórymi
-zwi±zanymi problemami. Cz±stkowe równania ró¿niczkowe, zwyk³e
-równania ró¿niczkowe i równania ró¿nicowe s± równie¿ mile widziane w
-tym pi¶mie. FDE wspiera tak¿e publikowanie powa¿nych, obszernych i
-autorytatywnych artyku³ów przegl±dowych, których celem jest
-informowanie czytelników o ostatnich postêpach, a tak¿e tle
-historycznym zwi±zanym z tymi tematami.
+publikowania wysokiej jakoÅ›ci artykuÅ‚Ã³w matematycznych z zakresu
+funkcyjnych rÃ³wnaÅ„ rÃ³Å¼niczkowych. Nacisk jest poÅ‚oÅ¼ony na waÅ¼ne
+postÄ™py w abstrakcyjnych i stosowanych funkcyjnych rÃ³wnaniach
+rÃ³Å¼niczkowych zwiÄ…zanych z problemami wartoÅ›ci granicznych, teoriÄ…
+stabilnoÅ›ci, teoriÄ… oscylacji, problemami wariacyjnymi, teoriÄ…
+optymalizacji i teoriÄ… sterowania. ArtykuÅ‚y dotyczÄ…ce funkcyjnych
+rÃ³wnaÅ„ rÃ³Å¼niczkowych z impulsami, rÃ³wnaniami caÅ‚kowymi i niektÃ³rymi
+zwiÄ…zanymi problemami. CzÄ…stkowe rÃ³wnania rÃ³Å¼niczkowe, zwykÅ‚e
+rÃ³wnania rÃ³Å¼niczkowe i rÃ³wnania rÃ³Å¼nicowe sÄ… rÃ³wnieÅ¼ mile widziane w
+tym piÅ›mie. FDE wspiera takÅ¼e publikowanie powaÅ¼nych, obszernych i
+autorytatywnych artykuÅ‚Ã³w przeglÄ…dowych, ktÃ³rych celem jest
+informowanie czytelnikÃ³w o ostatnich postÄ™pach, a takÅ¼e tle
+historycznym zwiÄ…zanym z tymi tematami.
 
-Style z tego pakietu s± potrzebne do publikowania w tym pi¶mie.
+Style z tego pakietu sÄ… potrzebne do publikowania w tym piÅ›mie.
 
 %prep
 %setup -q -c
